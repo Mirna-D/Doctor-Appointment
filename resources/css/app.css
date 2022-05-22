@@ -1,6 +1,7 @@
 @import '~antd/dist/antd.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap');
+
 body,
 p,
 h1,
@@ -11,6 +12,7 @@ h5,
 h6 {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -19,6 +21,7 @@ h5,
 h6 {
   font-weight: 700;
 }
+
 .logo {
   height: 32px;
   margin: 16px;
@@ -28,7 +31,7 @@ h6 {
 /* HOME */
 
 .site-layout .site-layout-background {
-  background: #f0f2f5;
+  background: None;
 }
 
 .ant-divider-horizontal.ant-divider-with-text {
@@ -69,7 +72,7 @@ h6 {
   border-radius: 5px;
 }
 
-.ant-list-item-meta-title > a {
+.ant-list-item-meta-title>a {
   color: #02A89A;
   transition: all 0.3s;
 }
@@ -98,7 +101,7 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
   justify-content: space-between;
-  box-shadow:  0px 0px 10px 5px #00DBC8;
+  box-shadow: 0px 0px 10px 5px #00DBC8;
   border: 2px #00DBC8;
   border-radius: 10px;
 }
@@ -155,7 +158,7 @@ h6 {
   position: relative;
   margin-top: 60px;
   text-align: center;
-  
+
 }
 
 .social-login h1 {
@@ -177,11 +180,11 @@ h6 {
   color: #02A89A;
   padding-top: 2vh;
   font-size: 15px;
-  
+
 }
 
-.form-group{
-    text-align: left ;
+.form-group {
+  text-align: left;
 }
 
 .login-form input {
@@ -195,7 +198,7 @@ h6 {
   outline: none;
 }
 
-.login-form ::placeholder{
+.login-form ::placeholder {
   color: #02A89A;
 }
 
@@ -222,14 +225,14 @@ h6 {
   font-weight: 600;
 }
 
-.ant-input-affix-wrapper{
+.ant-input-affix-wrapper {
   border-bottom: 1px solid #02A89A !important;
   width: 90%;
   border: none;
   padding: 10px;
 }
 
-span.anticon.anticon-eye.ant-input-password-icon, 
+span.anticon.anticon-eye.ant-input-password-icon,
 .span.ant-input-suffix {
   color: #02A89A;
 }
@@ -253,27 +256,32 @@ span.anticon.anticon-eye.ant-input-password-icon,
 }
 
 .ant-layout-sider-children,
-.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
   background: #02A89A !important;
 }
 
-.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
   background-color: #f0f2f5;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub,
-.ant-menu-dark .ant-menu-item > span > a{
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub,
+.ant-menu-dark .ant-menu-item>span>a {
   color: white;
 }
 
-.ant-menu-dark .ant-menu-item-selected > span > a,
-.ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon, .ant-menu-dark .ant-menu-item-selected .anticon {
+.ant-menu-dark .ant-menu-item-selected>span>a,
+.ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon,
+.ant-menu-dark .ant-menu-item-selected .anticon {
   color: black;
 }
 
-.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
   background: none;
 }
 
@@ -282,21 +290,21 @@ thead.ant-table-thead tr th {
   color: white;
 }
 
-.site-layout .site-layout-background, 
-.ant-breadcrumb{
+.site-layout .site-layout-background,
+.ant-breadcrumb {
   background: #f0f2f5;
 }
 
-.ant-table-tbody > tr > td{
+.ant-table-tbody>tr>td {
   border-bottom: 0px;
 }
 
-.appoint-title{
+.appoint-title {
   font-weight: 600;
   font-size: 25px;
 }
 
-.ant-form-horizontal .ant-form-item-label{
+.ant-form-horizontal .ant-form-item-label {
   text-align: left;
   padding: 0px 20px;
 }
@@ -305,7 +313,7 @@ form#basic {
   background: white;
   padding: 20px 20px 10px 20px;
   border-radius: 10px;
-  box-shadow:  0px 0px 10px 1px #00DBC8;
+  box-shadow: 0px 0px 10px 1px #00DBC8;
   height: 300px;
 }
 
@@ -314,7 +322,7 @@ input.ant-input {
   border-radius: 10px;
 }
 
-.input.ant-input::after{
+.input.ant-input::after {
   content: ' ';
 }
 
@@ -332,40 +340,79 @@ button.ant-btn.ant-btn-primary.button-add {
 }
 
 .ant-space-item a {
-  background: rgb(247, 125, 125);
   padding: 7px 10px;
   border-radius: 10px;
   color: white;
   outline: none;
 }
 
+/*Doctor Dashboard*/
+.ant-layout-header {
+  display: none;
+}
+
+.ant-collapse-header {
+  background-color: #00dbc93f;
+}
+
+#patient_check {
+  padding: 30px;
+  padding-bottom: 15px;
+  box-shadow: 0px 0px 10px 1px #00DBC8;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#info {
+  box-shadow: 0px 0px 10px 1px #00DBC8;
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+textarea.ant-input {
+  background: none;
+  border-radius: 10px;
+}
+
+.ant-form-item-required {
+  width: 130px;
+}
+
+textarea.ant-input::after {
+  content: ' ';
+}
+
 @media screen and (min-width: 750px) and (max-width: 990px) {
   .login-container {
-      height: 75vh;
-      top: 50%;
-      margin: 10px;
+    height: 75vh;
+    top: 50%;
+    margin: 10px;
   }
 
   .photo {
-      display: none;
+    display: none;
   }
 
   .form-cont {
-      width: 100%;
-      height: max-content;
-      border-top-left-radius: 40px;
-      border-bottom-left-radius: 40px;
+    width: 100%;
+    height: max-content;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
   }
 }
 
-@media screen and (max-width: 749px){
-  .social-login h1{
+@media screen and (max-width: 749px) {
+  .social-login h1 {
     font-size: 15px;
   }
 
-  .social-login p{
+  .social-login p {
     font-size: 12px;
   }
+
   .photo {
     display: none;
   }
@@ -377,7 +424,7 @@ button.ant-btn.ant-btn-primary.button-add {
     border-bottom-left-radius: 40px;
   }
 
-  .login-container{
+  .login-container {
     height: auto !important;
   }
 }

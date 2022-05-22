@@ -21,8 +21,9 @@ const DoctorDashboardPage: React.FC<Props> = ({ appointments }) => {
       <div
         className="site-layout-background"
         style={{ padding: 24, minHeight: 360 }}
+
       >
-        <Divider orientation="left">My Dashboard</Divider>
+        <Divider orientation="left">Today Appointments</Divider>
         <Row>
           <Col span="24">
             <AppointmentTable
