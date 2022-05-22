@@ -57,8 +57,8 @@ const Template: FC<Props> = ({ children, breadcrumbs }) => {
               Doctor Dashboard
             </InertiaLink>
           </Menu.Item>
-          <Menu.Item key="locations" icon={<DesktopOutlined />}>
-            <InertiaLink href={route('locations')}>Locations</InertiaLink>
+          <Menu.Item key="user.list" icon={<DesktopOutlined />}>
+            <InertiaLink href={route('user.list')}>Users</InertiaLink>
           </Menu.Item>
           <SubMenu
             key="sub1"
