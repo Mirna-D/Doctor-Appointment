@@ -1,0 +1,324 @@
+@import '~antd/dist/antd.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&display=swap');
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.login-container {
+  display: flex;
+  height: 80vh;
+  width: 60vw;
+  color: #fff0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  box-shadow:  0px 0px 10px 5px #00DBC8;
+  border: 2px #00DBC8;
+  border-radius: 10px;
+}
+
+.photo {
+  position: relative;
+  height: 470;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #00DBC8;
+  text-align: center;
+}
+
+.photo img {
+  position: relative;
+  width: 70%;
+  padding: 20px;
+  margin-top: 70px;
+  justify-content: center;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.form-cont {
+  width: 50%;
+  height: 100%;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  z-index: 2;
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+  background: url(../../public/img/home.png);
+  background-size: cover;
+  background-position: 70%;
+  background-repeat: no-repeat;
+}
+
+.inner-form {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px !important;
+}
+
+.social-login {
+  color: #02A89A;
+  position: relative;
+  margin-top: 60px;
+  text-align: center;
+  
+}
+
+.social-login h1 {
+  color: #02A89A;
+  font-size: 25px;
+  text-align: center;
+}
+
+.social-login p {
+  color: #02A89A;
+  font-size: 18px;
+}
+
+.inner-form .login-form {
+  margin: 30px 0;
+}
+
+.login-form label {
+  color: #02A89A;
+  padding-top: 2vh;
+  font-size: 15px;
+  
+}
+
+.form-group{
+    text-align: left ;
+}
+
+.login-form input {
+  position: relative;
+  border: none;
+  border-bottom: 1px solid #02A89A;
+  width: 90%;
+  font-size: 13px;
+  padding: 10px;
+  color: #02A89A;
+  outline: none;
+}
+
+.login-form ::placeholder{
+  color: #02A89A;
+}
+
+.login-form #hide {
+  color: #02A89A;
+  float: right;
+  margin-top: -25px;
+  padding-right: 40px;
+  position: relative;
+  z-index: 100;
+}
+
+.login-form .button {
+  font-size: 15px;
+  padding: 0px 20px;
+  margin: 2vh 0 2vh 0;
+  width: 90%;
+  background-color: #02A89A;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  color: #FEFEFE;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.ant-input-affix-wrapper{
+  border-bottom: 1px solid #02A89A !important;
+  width: 90%;
+  border: none;
+  padding: 10px;
+}
+
+span.anticon.anticon-eye.ant-input-password-icon, 
+.span.ant-input-suffix {
+  color: #02A89A;
+}
+
+
+.login-form .button:hover {
+  background: #dddd;
+  border-color: #dddd;
+  color: #02A89A;
+}
+
+.login-form a {
+  padding-bottom: 2px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-form a:hover {
+  color: #02A89A;
+}
+
+.ant-layout-sider-children,
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub{
+  background: #02A89A !important;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color: #f0f2f5;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub,
+.ant-menu-dark .ant-menu-item > span > a{
+  color: white;
+}
+
+.ant-menu-dark .ant-menu-item-selected > span > a,
+.ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon, .ant-menu-dark .ant-menu-item-selected .anticon {
+  color: black;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+  background: none;
+}
+
+thead.ant-table-thead tr th {
+  background: #02A89A;
+  color: white;
+}
+
+.site-layout .site-layout-background, 
+.ant-breadcrumb{
+  background: #f0f2f5;
+}
+
+.ant-table-tbody > tr > td{
+  border-bottom: 0px;
+}
+
+.appoint-title{
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.ant-form-horizontal .ant-form-item-label{
+  text-align: left;
+  padding: 0px 20px;
+}
+
+form#basic {
+  background: white;
+  padding: 20px 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow:  0px 0px 10px 1px #00DBC8;
+  height: 300px;
+}
+
+input.ant-input {
+  background: none;
+  border-radius: 10px;
+}
+
+.input.ant-input::after{
+  content: ' ';
+}
+
+.ant-row.ant-form-item.button-item {
+  float: right;
+  margin-right: 20px;
+
+}
+
+button.ant-btn.ant-btn-primary.button-add {
+  background: #02A89A;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.ant-space-item a {
+  background: rgb(247, 125, 125);
+  padding: 7px 10px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+}
+
+@media screen and (min-width: 750px) and (max-width: 990px) {
+  .login-container {
+      height: 75vh;
+      top: 50%;
+      margin: 10px;
+  }
+
+  .photo {
+      display: none;
+  }
+
+  .form-cont {
+      width: 100%;
+      height: max-content;
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+  }
+}
+
+@media screen and (max-width: 749px){
+  .social-login h1{
+    font-size: 15px;
+  }
+
+  .social-login p{
+    font-size: 12px;
+  }
+  .photo {
+    display: none;
+  }
+
+  .form-cont {
+    width: 100%;
+    height: max-content;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+
+  .login-container{
+    height: auto !important;
+  }
+}
