@@ -28,7 +28,8 @@ const PatientCheckup: React.FC<Props> = ({
         <Col span="8">
           <div
             className="site-layout-background"
-            style={{ padding: 24, minHeight: 360 }}
+            style={{ padding: 20, minHeight: 255 }}
+            id='info'
           >
             <h1>Patient: {appointment.patient.name}</h1>
             <br />
