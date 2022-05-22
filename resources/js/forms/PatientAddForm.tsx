@@ -14,7 +14,6 @@ const PatientAddForm: React.FC<Props> = ({ form, onFinish }) => {
     <Form
       form={form}
       name="basic"
-      className='tabel-appointment'
       labelCol={{ span: 8 }}
       wrapperCol={{ span: 16 }}
       initialValues={{ remember: true }}
@@ -53,12 +52,12 @@ const PatientAddForm: React.FC<Props> = ({ form, onFinish }) => {
         <Input />
       </Form.Item>
 
-      <Form.Item className='button-item' {...tailLayout}>
+      <Form.Item {...tailLayout}>
         <Space size={18}>
-          <Button className='button-add' type="primary" htmlType="submit">
+          <Button type="primary" htmlType="submit">
             Save
           </Button>
-          <InertiaLink  className='button-back' href={route('locations')}>Back</InertiaLink>
+          <InertiaLink href={route('locations')}>Back</InertiaLink>
         </Space>
       </Form.Item>
     </Form>

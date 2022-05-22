@@ -1,12 +1,164 @@
+"use strict";
 (self["webpackChunk"] = self["webpackChunk"] || []).push([["resources_js_Pages_Login_css"],{
 
 /***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./resources/js/Pages/Login.css":
 /*!************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./resources/js/Pages/Login.css ***!
   \************************************************************************************************************************************************************************************************/
-/***/ (() => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve '../../../public/img/home.png' in 'C:\\xampp\\htdocs\\doctor\\resources\\js\\Pages'\n    at finishWithoutResolve (C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:293:18)\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:362:15\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\xampp\\htdocs\\doctor\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\xampp\\htdocs\\doctor\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:87:43\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5\n    at eval (eval at create (C:\\xampp\\htdocs\\doctor\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at C:\\xampp\\htdocs\\doctor\\node_modules\\enhanced-resolve\\lib\\Resolver.js:410:5");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _public_img_home_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/img/home.png */ "./public/img/home.png");
+// Imports
+
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_public_img_home_png__WEBPACK_IMPORTED_MODULE_2__["default"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".login-container {\r\n    display: flex;\r\n    height: 80vh;\r\n    width: 60vw;\r\n    color: #fff0;\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    justify-content: space-between;\r\n    box-shadow:  0px 0px 10px 5px #00DBC8;\r\n    border: 2px #00DBC8;\r\n    border-radius: 10px;\r\n  }\r\n  \r\n  .photo {\r\n    position: relative;\r\n    height: 470;\r\n    width: 50%;\r\n    border-top-left-radius: 10px;\r\n    border-bottom-left-radius: 10px;\r\n    background-color: #00DBC8;\r\n    text-align: center;\r\n  }\r\n  \r\n  .photo img {\r\n    position: relative;\r\n    width: 70%;\r\n    padding: 20px;\r\n    margin-top: 70px;\r\n    justify-content: center;\r\n    border-top-left-radius: 40px;\r\n    border-bottom-left-radius: 40px;\r\n  }\r\n  \r\n  .form-cont {\r\n    width: 50%;\r\n    height: 100%;\r\n    border-top-right-radius: 40px;\r\n    border-bottom-right-radius: 40px;\r\n    z-index: 2;\r\n  }\r\n  \r\n  .main {\r\n    position: relative;\r\n    height: 100vh;\r\n    overflow: auto;\r\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-size: cover;\r\n    background-position: 70%;\r\n    background-repeat: no-repeat;\r\n  }\r\n  \r\n  .inner-form {\r\n    width: 80%;\r\n    height: 100%;\r\n    position: relative;\r\n    display: block;\r\n    margin: 0 auto;\r\n    margin-bottom: 20px !important;\r\n  }\r\n  \r\n  .social-login {\r\n    color: #02A89A;\r\n    position: relative;\r\n    margin-top: 60px;\r\n    text-align: center;\r\n    \r\n  }\r\n  \r\n  .social-login h1 {\r\n    color: #02A89A;\r\n    font-size: 25px;\r\n    text-align: center;\r\n  }\r\n  \r\n  .social-login p {\r\n    color: #02A89A;\r\n    font-size: 18px;\r\n  }\r\n  \r\n  .inner-form .login-form {\r\n    margin: 30px 0;\r\n  }\r\n  \r\n  .login-form label {\r\n    color: #02A89A;\r\n    padding-top: 2vh;\r\n    font-size: 15px;\r\n    \r\n  }\r\n  \r\n  .form-group{\r\n      text-align: left ;\r\n  }\r\n  \r\n  .login-form input {\r\n    position: relative;\r\n    border: none;\r\n    border-bottom: 1px solid #02A89A;\r\n    width: 90%;\r\n    font-size: 13px;\r\n    padding: 10px;\r\n    color: #02A89A;\r\n    outline: none;\r\n  }\r\n  \r\n  .login-form ::-moz-placeholder{\r\n    color: #02A89A;\r\n  }\r\n  \r\n  .login-form :-ms-input-placeholder{\r\n    color: #02A89A;\r\n  }\r\n  \r\n  .login-form ::placeholder{\r\n    color: #02A89A;\r\n  }\r\n  \r\n  .login-form #hide {\r\n    color: #02A89A;\r\n    float: right;\r\n    margin-top: -25px;\r\n    padding-right: 40px;\r\n    position: relative;\r\n    z-index: 100;\r\n  }\r\n  \r\n  .login-form .button {\r\n    font-size: 15px;\r\n    padding: 10px 20px;\r\n    margin: 2vh 0 2vh 0;\r\n    width: 95%;\r\n    background-color: #02A89A;\r\n    border: none;\r\n    border-radius: 20px;\r\n    outline: none;\r\n    color: #FEFEFE;\r\n    cursor: pointer;\r\n    font-weight: 600;\r\n  }\r\n  \r\n  .login-form .button:hover {\r\n    background: #dddd;\r\n    border-color: #dddd;\r\n    color: #02A89A;\r\n  }\r\n  \r\n  .login-form a {\r\n    padding-bottom: 2px;\r\n    color: white;\r\n    text-decoration: none;\r\n    font-size: 14px;\r\n  }\r\n  \r\n  .login-form a:hover {\r\n    color: #02A89A;\r\n  }\r\n  \r\n  @media screen and (min-width: 750px) and (max-width: 990px) {\r\n    .login-container {\r\n        height: 75vh;\r\n        top: 50%;\r\n        margin: 10px;\r\n    }\r\n  \r\n    .photo {\r\n        display: none;\r\n    }\r\n  \r\n    .form-cont {\r\n        width: 100%;\r\n        height: -webkit-max-content;\r\n        height: -moz-max-content;\r\n        height: max-content;\r\n        border-top-left-radius: 40px;\r\n        border-bottom-left-radius: 40px;\r\n    }\r\n  }\r\n  \r\n  @media screen and (max-width: 749px){\r\n    .social-login h1{\r\n      font-size: 15px;\r\n    }\r\n  \r\n    .social-login p{\r\n      font-size: 12px;\r\n    }\r\n    .photo {\r\n      display: none;\r\n    }\r\n  \r\n    .form-cont {\r\n      width: 100%;\r\n      height: -webkit-max-content;\r\n      height: -moz-max-content;\r\n      height: max-content;\r\n      border-top-left-radius: 40px;\r\n      border-bottom-left-radius: 40px;\r\n    }\r\n  \r\n    .login-container{\r\n      height: auto !important;\r\n    }\r\n  }", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === "string") {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, ""]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== "string") {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
+  }
+
+  return url;
+};
+
+/***/ }),
+
+/***/ "./public/img/home.png":
+/*!*****************************!*\
+  !*** ./public/img/home.png ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/home.png?7de7a205f0cbb91594a22df4c39504c3");
 
 /***/ }),
 
@@ -16,7 +168,6 @@ throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -24,7 +175,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./Login.css */ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[7].oneOf[1].use[2]!./resources/js/Pages/Login.css");
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1__);
 
             
 
@@ -33,11 +183,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()((_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1___default()), options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1___default().locals) || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_7_oneOf_1_use_2_Login_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -47,7 +197,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 var isOldIE = function isOldIE() {
