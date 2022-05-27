@@ -26311,7 +26311,7 @@ h6 {
 }
 
 td.ant-table-cell a {
-  color: ;
+  color: #02A89A;
   font-weight: bold;
 }
 
@@ -26483,6 +26483,7 @@ td.ant-table-cell a {
   padding: 10px;
   color: #02A89A;
   outline: none;
+  border-radius: 0px !important;
 }
 
 .login-form ::-moz-placeholder {
