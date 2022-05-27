@@ -8,7 +8,8 @@ import { InertiaLink } from '@inertiajs/inertia-react';
 import { Breadcrumb, Layout, Menu } from 'antd';
 import React, { FC, useEffect, useState } from 'react';
 import route from 'ziggy-js';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSignOut } from '@fortawesome/free-solid-svg-icons'
 import IBreadcrumb from '../../interfaces/IBreadcrumb';
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -40,7 +41,7 @@ const Template: FC<Props> = ({ children, breadcrumbs }) => {
   return (
     <Layout className="sidebar" style={{ minHeight: '100vh' }}>
       <Sider className='sidebar-item' collapsible collapsed={!menuIsOpen}>
-        <div className="logo" onClick={() => setMenuIsOpen(!menuIsOpen)} />
+        <div className="logo"  onClick={(Doctor_App) => setMenuIsOpen(!menuIsOpen)} />
         <Menu
           theme="dark"
           defaultOpenKeys={defaultSubMenu}
@@ -81,6 +82,9 @@ const Template: FC<Props> = ({ children, breadcrumbs }) => {
               <InertiaLink href={route('patients.add')}>Add new</InertiaLink>
             </Menu.Item>
           </SubMenu>
+          <div key="logout" className='logout'>
+            <InertiaLink href={route('login')}><FontAwesomeIcon icon={faSignOut} /></InertiaLink>
+          </div>
         </Menu>
       </Sider>
       <Layout className="site-layout">
