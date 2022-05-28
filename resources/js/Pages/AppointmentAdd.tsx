@@ -73,9 +73,9 @@ const AppointmentAdd: React.FC<Props> = ({ patients, phone_number }) => {
               patients.map((patient: IPatient) => {
                 return (
                   <Row>
-                    <Col span={24}>
+                    <Col span={30}>
                       <List size="default" itemLayout="vertical">
-                        <List.Item
+                        <List.Item className='list-appoint'
                           key={patient.id}
                           actions={[
                             <IconText
@@ -97,10 +97,9 @@ const AppointmentAdd: React.FC<Props> = ({ patients, phone_number }) => {
                           ]}
                         >
                           <List.Item.Meta
-                            title={patient.name}
-                            description={`Location: ${patient.location}`}
+                          title = {patient.name}
                           />
-                          Patient ID: {patient.patient_id}
+                          Patient ID : {patient.id}
                           <br />
                           Total visits: {patient.visit_count}
                           <br />

@@ -57,7 +57,9 @@ const PatientAddForm: React.FC<Props> = ({ form, onFinish }) => {
           <Button type="primary" htmlType="submit">
             Save
           </Button>
-          <InertiaLink href={route('locations')}>Back</InertiaLink>
+          <div className='back'>
+            <InertiaLink href={route('home')}>Back</InertiaLink>
+          </div>
         </Space>
       </Form.Item>
     </Form>

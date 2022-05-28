@@ -26725,7 +26725,30 @@ textarea.ant-input::after {
   display: none;
 }
 
+li.ant-list-item.ant-list-item-no-flex.list-appoint ul li .ant-space-item a {
+  color: white;
+}
 
+li.ant-list-item.ant-list-item-no-flex.list-appoint ul li 
+.ant-space.ant-space-horizontal.ant-space-align-center{
+  background: #00DBC8;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.ant-list-split .ant-list-item:last-child {
+  border-bottom: none;
+  flex-direction: column;
+}
+
+.ant-list path {
+  outline: none;
+  color: white;
+}
+
+.back a {
+  background: #ff6d53;
+  border-radius: 0px !important;
+}
 @media screen and (min-width: 750px) and (max-width: 990px) {
   .login-container {
     height: 75vh;
