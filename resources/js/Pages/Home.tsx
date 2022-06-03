@@ -25,6 +25,17 @@ const Home: React.FC<Props> = ({ appointments }) => {
       >
         <Divider orientation="left">Dashboard</Divider>
         <Row>
+          <Col className="add-appointments greeting"  flex="auto">
+            <div className="foto-home">
+              <img src="/img/home_webs.png" alt="" />
+            </div>
+            <div className="halo">
+              <h1>Quality Medical services make our patients happy</h1>
+              <p>There is no such thing as an infallible doctor.</p>
+            </div>
+          </Col>
+        </Row>
+        <Row>
           <Col className="add-appointments"  flex="auto">
             <InertiaLink href={route('appointments.add')}>
               <Button type="primary">Add appointment</Button>
