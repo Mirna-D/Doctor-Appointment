@@ -26763,6 +26763,43 @@ li.ant-list-item.ant-list-item-no-flex.list-appoint ul li
   background: #ff6d53;
   border-radius: 0px !important;
 }
+
+.add-appointments.greeting {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.foto-home img {
+  width: 100%;
+  display: inline-block;
+}
+
+.halo h1 {
+  color: #02a89a;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+.halo p {
+  margin-top: 5px;
+  color: gray;
+
+}
+
+.foto-home {
+  display: inline-block;
+  width: 30%;
+
+}
+
+.halo {
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  margin-left: 20px;
+}
 @media screen and (min-width: 750px) and (max-width: 990px) {
   .login-container {
     height: 75vh;

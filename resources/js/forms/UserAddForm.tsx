@@ -36,12 +36,12 @@ const UserAddForm: React.FC<Props> = ({ form, onFinish }) => {
         <Input type="email" />
       </Form.Item>
 
-      <Form.Item
+      <Form.Item className='pass'
         label="Password"
         name="password"
         rules={[{ required: true, message: 'Enter the Password' }]}
       >
-        <Input.Password />
+        <Input.Password className='passwords' />
       </Form.Item>
 
       <Form.Item {...tailLayout}>
