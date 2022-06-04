@@ -35,6 +35,6 @@ class UserController extends Controller
 
         User::create($postData);
 
-        return Redirect::route('home');
+        return Redirect::route('user.list');
     }
 }
