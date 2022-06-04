@@ -53491,106 +53491,137 @@ module.exports = function getSideChannel() {
 var map = {
 	"./AddUser": [
 		"./resources/js/Pages/AddUser.tsx",
+		7,
 		"resources_js_Pages_AddUser_tsx"
 	],
 	"./AddUser.tsx": [
 		"./resources/js/Pages/AddUser.tsx",
+		7,
 		"resources_js_Pages_AddUser_tsx"
 	],
 	"./AppointmentAdd": [
 		"./resources/js/Pages/AppointmentAdd.tsx",
+		7,
 		"resources_js_Pages_AppointmentAdd_tsx"
 	],
 	"./AppointmentAdd.tsx": [
 		"./resources/js/Pages/AppointmentAdd.tsx",
+		7,
 		"resources_js_Pages_AppointmentAdd_tsx"
 	],
 	"./AppointmentBook": [
 		"./resources/js/Pages/AppointmentBook.tsx",
+		7,
 		"resources_js_Pages_AppointmentBook_tsx"
 	],
 	"./AppointmentBook.tsx": [
 		"./resources/js/Pages/AppointmentBook.tsx",
+		7,
 		"resources_js_Pages_AppointmentBook_tsx"
 	],
 	"./AppointmentView": [
 		"./resources/js/Pages/AppointmentView.tsx",
+		7,
 		"resources_js_Pages_AppointmentView_tsx"
 	],
 	"./AppointmentView.tsx": [
 		"./resources/js/Pages/AppointmentView.tsx",
+		7,
 		"resources_js_Pages_AppointmentView_tsx"
 	],
 	"./Appointments": [
 		"./resources/js/Pages/Appointments.tsx",
+		7,
 		"resources_js_Pages_Appointments_tsx"
 	],
 	"./Appointments.tsx": [
 		"./resources/js/Pages/Appointments.tsx",
+		7,
 		"resources_js_Pages_Appointments_tsx"
 	],
 	"./DoctorDashboard": [
 		"./resources/js/Pages/DoctorDashboard.tsx",
+		7,
 		"resources_js_Pages_DoctorDashboard_tsx"
 	],
 	"./DoctorDashboard.tsx": [
 		"./resources/js/Pages/DoctorDashboard.tsx",
+		7,
 		"resources_js_Pages_DoctorDashboard_tsx"
 	],
 	"./Home": [
 		"./resources/js/Pages/Home.tsx",
+		7,
 		"resources_js_Pages_Home_tsx"
 	],
 	"./Home.tsx": [
 		"./resources/js/Pages/Home.tsx",
+		7,
 		"resources_js_Pages_Home_tsx"
+	],
+	"./Login.css": [
+		"./resources/js/Pages/Login.css",
+		9,
+		"resources_js_Pages_Login_css"
 	],
 	"./LoginPage": [
 		"./resources/js/Pages/LoginPage.tsx",
+		7,
 		"resources_js_Pages_LoginPage_tsx"
 	],
 	"./LoginPage.tsx": [
 		"./resources/js/Pages/LoginPage.tsx",
+		7,
 		"resources_js_Pages_LoginPage_tsx"
 	],
 	"./PatientCheckup": [
 		"./resources/js/Pages/PatientCheckup.tsx",
+		7,
 		"resources_js_Pages_PatientCheckup_tsx"
 	],
 	"./PatientCheckup.tsx": [
 		"./resources/js/Pages/PatientCheckup.tsx",
+		7,
 		"resources_js_Pages_PatientCheckup_tsx"
 	],
 	"./PatientView": [
 		"./resources/js/Pages/PatientView.tsx",
+		7,
 		"resources_js_Pages_PatientView_tsx"
 	],
 	"./PatientView.tsx": [
 		"./resources/js/Pages/PatientView.tsx",
+		7,
 		"resources_js_Pages_PatientView_tsx"
 	],
 	"./Patients": [
 		"./resources/js/Pages/Patients.tsx",
+		7,
 		"resources_js_Pages_Patients_tsx"
 	],
 	"./Patients.tsx": [
 		"./resources/js/Pages/Patients.tsx",
+		7,
 		"resources_js_Pages_Patients_tsx"
 	],
 	"./PatientsAdd": [
 		"./resources/js/Pages/PatientsAdd.tsx",
+		7,
 		"resources_js_Pages_PatientsAdd_tsx"
 	],
 	"./PatientsAdd.tsx": [
 		"./resources/js/Pages/PatientsAdd.tsx",
+		7,
 		"resources_js_Pages_PatientsAdd_tsx"
 	],
 	"./UserList": [
 		"./resources/js/Pages/UserList.tsx",
+		7,
 		"resources_js_Pages_UserList_tsx"
 	],
 	"./UserList.tsx": [
 		"./resources/js/Pages/UserList.tsx",
+		7,
 		"resources_js_Pages_UserList_tsx"
 	]
 };
@@ -53604,8 +53635,8 @@ function webpackAsyncContext(req) {
 	}
 
 	var ids = map[req], id = ids[0];
-	return __webpack_require__.e(ids[1]).then(() => {
-		return __webpack_require__.t(id, 7 | 16);
+	return __webpack_require__.e(ids[2]).then(() => {
+		return __webpack_require__.t(id, ids[1] | 16)
 	});
 }
 webpackAsyncContext.keys = () => (Object.keys(map));
@@ -53772,7 +53803,7 @@ module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\xampp1\\\\htdocs\\
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_AddUser_tsx":1,"resources_js_Pages_AppointmentAdd_tsx":1,"resources_js_Pages_AppointmentBook_tsx":1,"resources_js_Pages_AppointmentView_tsx":1,"resources_js_Pages_Appointments_tsx":1,"resources_js_Pages_DoctorDashboard_tsx":1,"resources_js_Pages_Home_tsx":1,"resources_js_Pages_LoginPage_tsx":1,"resources_js_Pages_PatientCheckup_tsx":1,"resources_js_Pages_PatientView_tsx":1,"resources_js_Pages_Patients_tsx":1,"resources_js_Pages_PatientsAdd_tsx":1,"resources_js_Pages_UserList_tsx":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_AddUser_tsx":1,"resources_js_Pages_AppointmentAdd_tsx":1,"resources_js_Pages_AppointmentBook_tsx":1,"resources_js_Pages_AppointmentView_tsx":1,"resources_js_Pages_Appointments_tsx":1,"resources_js_Pages_DoctorDashboard_tsx":1,"resources_js_Pages_Home_tsx":1,"resources_js_Pages_Login_css":1,"resources_js_Pages_LoginPage_tsx":1,"resources_js_Pages_PatientCheckup_tsx":1,"resources_js_Pages_PatientView_tsx":1,"resources_js_Pages_Patients_tsx":1,"resources_js_Pages_PatientsAdd_tsx":1,"resources_js_Pages_UserList_tsx":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
