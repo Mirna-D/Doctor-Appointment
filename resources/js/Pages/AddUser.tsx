@@ -19,7 +19,7 @@ const AddUser = () => {
       >
         <Divider orientation="left">Add user</Divider>
         <Row>
-          <Col flex="auto">
+          <Col flex="auto" className='tambahUser'>
             <UserAddForm form={userAddForm} onFinish={handleFormSubmit} />
           </Col>
         </Row>

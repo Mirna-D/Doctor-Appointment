@@ -11,7 +11,7 @@ interface Props {
 
 const UserAddForm: React.FC<Props> = ({ form, onFinish }) => {
   return (
-    <Form
+    <Form 
       form={form}
       name="basic"
       labelCol={{ span: 8 }}
@@ -49,7 +49,9 @@ const UserAddForm: React.FC<Props> = ({ form, onFinish }) => {
           <Button type="primary" htmlType="submit">
             Save
           </Button>
-          <InertiaLink href={route('user.list')}>Back</InertiaLink>
+          <Button className='button-back'>
+            <InertiaLink href={route('user.list')}>Back</InertiaLink>
+          </Button>
         </Space>
       </Form.Item>
     </Form>

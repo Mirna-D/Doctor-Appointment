@@ -239,6 +239,20 @@ td.ant-table-cell a {
   font-weight: 600;
 }
 
+.tambahUser .ant-input-affix-wrapper {
+  border: 1px solid #d0cece !important;
+  width: 100%;
+  border: none;
+  padding: 4px 11px;
+  border-radius: 10px;
+}
+
+.tambahUser .button-back{
+  background: #ff6d53;
+  border-radius: 0px !important;
+  color: white;
+}
+
 .ant-input-affix-wrapper {
   border-bottom: 1px solid #02A89A !important;
   width: 90%;
@@ -508,3 +522,52 @@ li.ant-list-item.ant-list-item-no-flex.list-appoint ul li
     height: auto !important;
   }
 }
+
+.add-appointments.greeting{
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.foto-home img {
+  width: 100%;
+  display: inline-block;
+}
+
+.halo h1 {
+  color: #02a89a;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 0;
+}
+
+.halo p{
+  margin-top: 5px;
+  color: gray;
+
+}
+
+.foto-home{
+  display: inline-block;
+  width: 30%;
+  
+}
+
+.halo {
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  margin-left: 20px;
+}
+
+.tambahUser .ant-input-affix-wrapper {
+  border: 1px solid #d0cece !important;
+  width: 100%;
+  border: none;
+  padding: 4px 11px;
+  border-radius: 10px;
+}
+
+/* .tambahUser .button-back{
+  background-color: #00DBC8;
+} */
