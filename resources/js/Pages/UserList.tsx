@@ -1,5 +1,6 @@
 import { Inertia, Method } from '@inertiajs/inertia';
-import { Col, Divider, Row, Table, TablePaginationConfig } from 'antd';
+import { InertiaLink } from '@inertiajs/inertia-react';
+import { Button, Col, Divider, Row, Table, TablePaginationConfig } from 'antd';
 import React from 'react';
 import route from 'ziggy-js';
 
@@ -34,6 +35,13 @@ const UserList: React.FC<Props> = ({ users }) => {
         style={{ padding: 24, minHeight: 360 }}
       >
         <Divider orientation="left">Users</Divider>
+        <Row>
+          <Col className="add-appointments" flex="auto">
+            <InertiaLink href={route('user.add')}>
+              <Button type="primary">Add User</Button>
+            </InertiaLink>
+          </Col>
+        </Row>
         <Row>
           <Col flex="auto">
             <Table className='table-user'
